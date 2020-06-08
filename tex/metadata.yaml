@@ -37,8 +37,8 @@ keywords: rescience c, rescience x
 # Software Heritage.
 #   see https://guides.github.com/activities/citable-code/
 code:
-  - url: https://github.com/rescience-c/template
-  - doi: 
+  - url: https://zenodo.org/record/3878075
+  - doi: 10.5281/zenodo.3878075
   - swh: 
 
 # Data URL and DOI (optional if no data)
@@ -48,10 +48,10 @@ data:
 
 # Information about the original article that has been replicated
 replication:
- - cite: # Full textual citation
- - bib:  # Bibtex key (if any) in your bibliography file
- - url:  # URL to the PDF, try to link to a non-paywall version
- - doi:  # Regular digital object identifier
+ - cite: Charles H. Robert. "Estimating friction coefficients of mixed globular/chain molecules, such as protein/DNA complexes." Biophys. J. 69 (Sept. 1995), pp. 840–848
+ - bib:  Robert1995
+ - url:  https://doi.org/10.1016/S0006-3495(95)79957-X
+ - doi:  10.1016/S0006-3495(95)79957-X
 
 # Don't forget to surround abstract with double quotes
 abstract: "Reproducibility report for the ReScience 10-year challenge, 2020"
@@ -64,11 +64,12 @@ bibliography: bibliography.bib
 #  * Editorial
 #  * Letter
 #  * Replication
-type: Replication
+#  * Reproduction
+type: Reproduction
 
 # Scientific domain of the article (e.g. Computational Neuroscience)
 #  (one domain only & try to be not overly specific)
-domain: 
+domain: Computational biophysics
 
 # Coding language (main one only if several)
 language: Mathematica
@@ -79,14 +80,14 @@ language: Mathematica
 
 # For example, the URL of the GitHub issue where review actually occured
 review: 
-  - url: 
+  - url: https://github.com/ReScience/submissions/issues/26
 
 contributors:
-  - name:
-    orcid: 
+  - name: Konrad Hinsen
+    orcid: 0000-0003-0330-9428
     role: editor
-  - name:
-    orcid:
+  - name: Gerald Kneller
+    orcid: 0000-0002-3374-3797
     role: reviewer
   - name:
     orcid:
@@ -94,19 +95,19 @@ contributors:
 
 # This information will be provided by the editor
 dates:
-  - received: 
-  - accepted:
+  - received: April 10, 2020
+  - accepted: June 8, 2020
   - published: 
 
 # This information will be provided by the editor
 article:
-  - number: # Article number will be automatically assigned during publication
+  - number: 4
   - doi:    # DOI from Zenodo
   - url:    # Final PDF URL (Zenodo or rescience website?)
 
 # This information will be provided by the editor
 journal:
-  - name: "ReScience C"
-  - issn:   
-  - volume: 
-  - issue:  
+  - name:   "ReScience C"
+  - issn:   2430-3658
+  - volume: 6
+  - issue:  1
