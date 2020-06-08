@@ -38,7 +38,7 @@ keywords: macromolecular structure, protein-DNA assemblies, chromatin, fiber, nu
 #   see https://guides.github.com/activities/citable-code/
 code:
   - url: https://zenodo.org/record/3878075
-  - doi: http://doi.org/10.5281/zenodo.3878075
+  - doi: 10.5281/zenodo.3878075
   - swh: 
 
 # Data URL and DOI (optional if no data)
@@ -51,7 +51,7 @@ replication:
  - cite: C. H. Robert, Estimating friction coefficients of mixed globular/chain molecules, such as protein/DNA complexes. Biophys J 69, 840-848 (1995)
  - bib:  Robert1995
  - url:  https://doi.org/10.1016/S0006-3495(95)79957-X
- - doi:  https://doi.org/10.1016/S0006-3495(95)79957-X
+ - doi:  10.1016/S0006-3495(95)79957-X
 
 # Don't forget to surround abstract with double quotes
 abstract: "Reproduction report for C. H. Robert, Estimating friction coefficients of mixed globular/chain molecules, such as protein/DNA complexes. The original Mathematica notebook code, with very few modifications, was used with the most recent Mathematica version 12.0 to reproduce the data plotted in the original article."
@@ -82,8 +82,8 @@ review:
   - url: https://github.com/ReScience/submissions/issues/26
 
 contributors:
-  - name:
-    orcid: 
+  - name: Konrad Hinsen
+    orcid: 0000-0003-0330-9428
     role: editor
   - name: Gerald Kneller
     orcid: 0000-0002-3374-3797
