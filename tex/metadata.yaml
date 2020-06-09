@@ -94,19 +94,19 @@ contributors:
 
 # This information will be provided by the editor
 dates:
-  - received: 
-  - accepted:
-  - published: 
+  - received: April 10, 2020
+  - accepted: June 8, 2020
+  - published: June 9, 2020
 
 # This information will be provided by the editor
 article:
-  - number: # Article number will be automatically assigned during publication
-  - doi:    # DOI from Zenodo
-  - url:    # Final PDF URL (Zenodo or rescience website?)
+  - number: 4
+  - doi:    0.5281/zenodo.3886412
+  - url:    https://zenodo.org/record/3886412/files/article.pdf
 
 # This information will be provided by the editor
 journal:
-  - name: "ReScience C"
-  - issn:   
-  - volume: 
-  - issue:  
+  - name:   "ReScience C"
+  - issn:   2430-3658
+  - volume: 6
+  - issue:  1
